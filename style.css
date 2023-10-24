@@ -1,0 +1,36 @@
+.page-body {
+  border: 1px solid orangered;
+}
+
+.page-body header {
+  align-items: center;
+  text-align: center;
+  height: 700px;
+  border: 1px solid orangered;
+}
+
+.page-body header p {
+  border: 1px solid orangered;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.buttons {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-a,
+.button-b,
+.button-c {
+  border: 1px solid orangered;
+  height: 50px;
+  width: 150px;
+  align-items: center;
+  text-align: center;
+}
