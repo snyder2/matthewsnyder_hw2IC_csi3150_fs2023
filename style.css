@@ -5,8 +5,7 @@
 .page-body header {
   align-items: center;
   text-align: center;
-  height: 700px;
-  border: 1px solid orangered;
+  height: 200px;
 }
 
 .page-body header p {
@@ -17,8 +16,8 @@
 }
 
 .buttons {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 145px;
+  margin-right: 145px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -33,4 +32,39 @@
   width: 150px;
   align-items: center;
   text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+}
+
+.images figcaption {
+  height: 60px;
+  border: 1px solid orangered;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hide-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 50%;
+  width: 75%;
+  background-color: blue;
+  color: white;
+  border: 3px solid lightblue;
+}
+
+.image-a,
+.image-b,
+.image-c {
+  opacity: 0%;
 }
